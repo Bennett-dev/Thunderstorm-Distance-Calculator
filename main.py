@@ -6,6 +6,6 @@ def calc(T, F=60):
     return VsoundM * (T/3600)
 x = int(input("count the seconds between the flash and the sound: "))
 y = int(input("enter air temp: "))
-z = str(round(calc(x, y), 4))
+z = str(round(calc(x, y), 6))
 print("the storm is "+z+" miles away")
 time.sleep(10)
